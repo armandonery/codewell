@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-image: url('./assets/background.png');
+    /* background: linear-gradient(70deg, white); */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    border-radius: 85px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    
+    border-radius: 85px;
+    display: flex;
+    max-width: 50%;
+}
+
+.gradie {
+    background-color: #023440;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text p {
+    color: #c0c0c0;
+    margin-top: -15px;
+}
+
+#chk {
+    border: gainsboro;
+}
+
+img {
+    margin-top: -55px;
+}
+
+.title {
+    color: #fff;
+}
+
+.email,
+.password {
+    padding-bottom: 5px;
+}
+
+#email,
+#password {
+    margin-bottom: 15px;
+    padding: 12px 10px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #023440;
+    color: #fff;
+    border: none;
+}
+
+.login {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 60px;
+    padding-top: 20px;
+}
+
+.agree0 {
+    padding-left: 25px;
+    margin-top: -15px !important;
+}
+
+.agree,
+.agree2 {
+    color: #023440;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
